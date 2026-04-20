@@ -71,16 +71,36 @@ print(np.nonzero(arr5))
 
 #### 11. Create a 3x3 identity matrix (★☆☆)
 
-
+print(np.identity(3))
 
 
 #### 12. Create a 3x3x3 array with random values (★☆☆)
 
+print(np.random.random(3,3,3))
+
+
+
 #### 13. Create a 10x10 array with random values and find the minimum and maximum values (★☆☆)
+
+
+arr10=np.random.random(10,10)
+
+arr10.max()
+
+arr10.min()
+
+
 
 #### 14. Create a random vector of size 30 and find the mean value (★☆☆)
 
+arrRandom=np.random.random(30)
+arrRandom.mean()
+
 #### 15. Create a 2d array with 1 on the border and 0 inside (★☆☆)
+
+
+
+
 
 #### 16. How to add a border (filled with 0's) around an existing array? (★☆☆)
 
